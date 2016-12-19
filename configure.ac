@@ -491,6 +491,8 @@ AC_CONFIG_FILES([Makefile
                  src/hostip/Makefile
                  src/proxy/Makefile
                  src/ext/Makefile
+                 src/wrapper/Makefile
+                 src/wrapper/tests/Makefile
                  src/include/Makefile
                  src/include/dnscrypt/version.h
                  src/plugins/Makefile

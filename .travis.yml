@@ -20,6 +20,8 @@ before_script:
 
 script:
  - make -j$(nproc)
+ - sudo ./.travis_setup.sh
+ - cd src/wrapper/tests && bundle install && make check
 
 matrix:
  - fast_finish: true
